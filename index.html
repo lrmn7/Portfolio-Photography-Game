@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PHOTO</title>
+    <meta name="title" content="Your personal photographer">
+    <meta name="description" content="made by L RMN">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/font.css">
+
+    <link rel="preload" as="image" href="./assets/images/loading.svg">
+    <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+</head>
+<body class="active" id="top">
+
+<div class="loading" data-loading>
+    <img src="./assets/images/loading.svg" alt="loading" class="img" width="55" height="55">
+    <img src="./assets/images/loading-circle.svg" alt="circle" class="circle" width="70" height="70">
+</div>
+
+<header class="header" data-header>
+    <div class="container">
+        <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="logo" width="40" height="40">
+        </a>
+        
+        <button class="nav-open-btn" aria-label="nav open" data-nav-toggler>
+            <img src="./assets/images/menu.svg" alt="menu" width="17" height="17">
+        </button>
+        
+        <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+                <a href="#" class="logo">
+                    <img src="./assets/images/lrmnlogo1.png" alt="logo" width="140" height="40" class="img">
+                </a>
+
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                    <span class="span one"></span>
+                    <span class="span two"></span>
+                </button>
+            </div>
+
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#about" class="navbar-link" data-nav-link>About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#services" class="navbar-link" data-nav-link></a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#portfolio" class="navbar-link" data-nav-link></a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contact" class="navbar-link" data-nav-link></a>
+                </li>
+            </ul>
+
+            <button class="login-btn">
+                <span class="span">Resume</span>
+            </button>
+
+            <p class="navbar-title">My Address</p>
+            <address class="navbar-text">
+                Bogor, Indonesia
+            </address>
+            <p class="navbar-text">
+                Whatsapp
+                <a href="https://wa.me/6287870800765" class="contact-link">0878 7080 0765</a>
+            </p>
+        </nav>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+</header>
+
+<main>
+    <article>
+        <section class="section hero" id="home" aria-labal="home">
+            <div class="container">
+                <img src="./assets/images/hero-banner.png" alt="hero" class="hero-banner" width="322" height="322">
+                
+                <div class="hero-content">
+                    <h1 class="h1 hero-title">L RMN</h1>
+
+                    <div class="wrapper h4">
+                        <strong class="strong" data-letter-effect>I'm a Virtual Photography</strong>
+                    </div>
+            <img src="./assets/images/hero-shape.svg" alt="shape" class="shape" width="211" height="189">
+        </section>
+
+        <section class="section gallery" id="gallery">
+            <div class="container">
+                <ul class="gallery-list">
+                    <li class="gallery-item" data-reveal>
+                        <div class="gallery-card">
+                            <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                                <img src="./assets/images/aloy75.jpg" alt="gallery" class="img-cover" 
+                                    width="450" height="625" loading="lazy">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h6">
+                                    <a href="#" class="card-title">Horizon Forbidden West</a>
+                                </h3>
+                                <span class="card-tag">History</span>
+                            </div>
+
+                            <a href="#" class="btn-icon">
+                                <img src="./assets/images/arrow-forward.svg" alt="arrow" loading="lazy"
+                                    width="43" height="20">
+                            </a>
+                        </div>
+                        <div class="gallery-card">
+                            <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                                <img src="./assets/images/cat1.jpg" alt="gallery" class="img-cover" 
+                                    width="450" height="625" loading="lazy">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h6">
+                                    <a href="#" class="card-title">Stray</a>
+                                </h3>
+                                <span class="card-tag">History</span>
+                            </div>
+
+                            <a href="#" class="btn-icon">
+                                <img src="./assets/images/arrow-forward.svg" alt="arrow" loading="lazy"
+                                    width="43" height="20">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="gallery-item" data-reveal>
+                        <div class="gallery-card">
+                            <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                                <img src="./assets/images/4.png" alt="gallery" class="img-cover" 
+                                    width="450" height="625" loading="lazy">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h6">
+                                    <a href="#" class="card-title">RIDE 4</a>
+                                </h3>
+                                <span class="card-tag">Motorsport,Superbike</span>
+                            </div>
+
+                            <a href="#" class="btn-icon">
+                                <img src="./assets/images/arrow-forward.svg" alt="arrow" loading="lazy"
+                                    width="43" height="20">
+                            </a>
+                        </div>
+                        <div class="gallery-card">
+                            <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                                <img src="./assets/images/thecrew3.jpg" alt="gallery" class="img-cover" 
+                                    width="450" height="625" loading="lazy">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h6">
+                                    <a href="#" class="card-title">The Crew 3</a>
+                                </h3>
+                                <span class="card-tag">Classic,Supercar</span>
+                            </div>
+
+                            <a href="#" class="btn-icon">
+                                <img src="./assets/images/arrow-forward.svg" alt="arrow" loading="lazy"
+                                    width="43" height="20">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="gallery-item" data-reveal>
+                        <div class="gallery-card">
+                            <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                                <img src="./assets/images/MOTO14.png" alt="gallery" class="img-cover" 
+                                    width="450" height="625" loading="lazy">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h6">
+                                    <a href="#" class="card-title">MOTO GP</a>
+                                </h3>
+                                <span class="card-tag">Motorsport,Superbike</span>
+                            </div>
+
+                            <a href="#" class="btn-icon">
+                                <img src="./assets/images/arrow-forward.svg" alt="arrow" loading="lazy"
+                                    width="43" height="20">
+                            </a>
+                        </div>
+                        <div class="gallery-card">
+                            <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                                <img src="./assets/images/f1.jpg" alt="gallery" class="img-cover" 
+                                    width="450" height="625" loading="lazy">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h6">
+                                    <a href="#" class="card-title">Formula 1</a>
+                                </h3>
+                                <span class="card-tag">Championship</span>
+                            </div>
+
+                            <a href="#" class="btn-icon">
+                                <img src="./assets/images/arrow-forward.svg" alt="arrow" loading="lazy"
+                                    width="43" height="20">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="gallery-item" data-reveal>
+                        <div class="gallery-card">
+                            <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                                <img src="./assets/images/hugo3.png" alt="gallery" class="img-cover" 
+                                    width="450" height="625" loading="lazy">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h6">
+                                    <a href="#" class="card-title">Aplaguetale</a>
+                                </h3>
+                                <span class="card-tag">History</span>
+                            </div>
+
+                            <a href="#" class="btn-icon">
+                                <img src="./assets/images/arrow-forward.svg" alt="arrow" loading="lazy"
+                                    width="43" height="20">
+                            </a>
+                        </div>
+                        <div class="gallery-card">
+                            <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                                <img src="./assets/images/DAYS-GONE51.png" alt="gallery" class="img-cover" 
+                                    width="450" height="625" loading="lazy">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3 class="h6">
+                                    <a href="#" class="card-title">Days Gone</a>
+                                </h3>
+                                <span class="card-tag">History</span>
+                            </div>
+
+                            <a href="#" class="btn-icon">
+                                <img src="./assets/images/arrow-forward.svg" alt="arrow" loading="lazy"
+                                    width="43" height="20">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+                <a href="#gallery" class="scroll-down">
+                    <img src="./assets/images/scroll-down.svg" alt="scroll down" loading="lazy"
+                        width="40" height="66">
+                </a>
+
+                <img src="./assets/images/gallery-shape.svg" alt="shape" loading="lazy" class="shape"
+                    width="220" height="78">
+            </div>
+        </section>
+
+        <section class="section about" id="about" aria-label="about">
+            <div class="container">
+                <div class="about-content">
+                    <h2 class="h2 section-title" data-reveal="right">
+                        Hi, I'm L RMN <br>
+                    </h2>
+                    <div class="wrapper has-before" data-reveal="right">
+                        <p class="section-text">
+                            A passionate
+                            <em class="em">Virtual Photographer</em>
+                            who are working in this field for
+                            <em class="em">last 2+ years.</em>
+                            I'm ready to give you my best.
+                        </p>
+
+                        <img src="./assets/images/roman.png" alt="about" class="img" loading="lazy"
+                            width="151" height="92">
+                    </div>
+                </div>
+                <figure class="about-banner" data-reveal="left">
+                    <div class="img-holder has-before" style="--width: 512; --height: 684;">
+                        <img src="./assets/images/profilanime.png" alt="about" class="img-cover"
+                            width="512" height="684" loading="lazy">
+                    </div>
+                    
+                    <img src="./assets/images/about-shape-2.svg" alt="shape" class="shape shape-2"
+                        width="659" height="653" loading="lazy">
+                </figure>
+                <img src="./assets/images/about-shape-3.svg" alt="shape" class="shape shape-3"
+                    width="239" height="232" loading="lazy">
+            </div>
+        </section>
+<footer class="footer">
+    <div class="footer-top section" id="contact">
+        <div class="container">
+            <p class="section-subtitle" data-reveal>
+                Contact Us
+            </p>
+
+            <h2 class="h2 section-title" data-reveal>
+                Work inquiry, Job oportunities? Send Message.
+            </h2>
+
+            <a href="#" class="btn-icon" data-reveal>
+                <img src="./assets/images/arrow-forward.svg" alt="arrow" width="43" height="20" loading="lazy">
+            </a>
+
+            <img src="./assets/images/thecrew01.jpg" alt="abs" class="abs-img abs-img-1" 
+                width="159" height="176" loading="lazy" data-reveal>
+            <img src="./assets/images/aloy2.jpg" alt="abs" class="abs-img abs-img-2" 
+                width="265" height="275" loading="lazy" data-reveal>
+            <img src="./assets/images/RIDE4-3.png" alt="abs" class="abs-img abs-img-3" 
+                width="303" height="272" loading="lazy" data-reveal>
+            <img src="./assets/images/DAYS-GONE25.png" alt="abs" class="abs-img abs-img-4" 
+                width="175" height="175" loading="lazy" data-reveal>
+            
+            <img src="./assets/images/footer-shape.svg" alt="shape" class="shape"
+                width="185" height="134" loading="lazy">
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="40" height="40" alt="logo" loading="lazy">
+            </a>
+
+            <ul class="social-list">
+                <li>
+                    <a href="https://instagram.com/romanroman.nya/" class="social-link">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://Twitter.com/romanromannya" class="social-link">Twitter</a>
+                </li>
+                <li>
+                    <a href="Https://lrmns.is-a.dev" class="social-link">Discord</a>
+                </li>
+            </ul>
+
+            <p class="copyright">L RMN @2023</p>
+        </div>
+    </div>
+
+    <div class="footer-bg has-before">
+        <img src="./assets/images/bg1.jpg" alt="footer" class="img-cover"
+            width="1920" height="1135" loading="lazy">
+    </div>
+</footer>
+
+<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+<div class="cursor" data-cursor></div>
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
